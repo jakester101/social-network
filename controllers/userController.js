@@ -129,6 +129,7 @@ const userController = {
         res.status(400).json(err);
       });
   }
+  
 };
 
 module.exports = userController;
